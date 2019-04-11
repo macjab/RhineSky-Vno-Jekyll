@@ -5,8 +5,6 @@ Allow: /assets
 Allow: /index.html
 Allow: /feed.xml
 Allow: /sitemap.xml
-Allow: /google3c1fc6868e0e0dae.html
-Allow: /BingSiteAuth.xml
 Disallow: /
 
 Sitemap: http://macjab.com/sitemap.xml
