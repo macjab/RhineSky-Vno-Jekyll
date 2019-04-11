@@ -1,0 +1,71 @@
+# URLs
+baseurl: ""
+#url: "macjab.coding.io"
+url: "https://macjab.com"
+siteURL: "https://macjab.com/_site"
+postsURL: "https://macjab.com/_posts"
+includesURL: "https://macjab.com/_includes"
+assetsURL: "https://macjab.com/assets"
+cssURL: "https://macjab.com/css"
+jsURL: "https://macjab.com/js"
+
+# Social
+mySocial:
+    weibo: "https://www.weibo.com/1161398307"
+    weiboName: MaCJab
+
+    github: "https://github.com/macjab"
+    githubName: macjab
+
+    twitter: "https://twitter.com/macjab_Instance"
+    twitterName: macjab_Instance
+
+    mail: "macjab@macjab.com"
+
+# openSource URLs
+RhineSky_Vno_Jekyll_GitHub_Template_URL: "https://github.com/macjab/RhineSky-Vno-Jekyll"
+onevcat_Vno_Jekyll_GitHub_Template_URL: "https://github.com/onevcat/vno-jekyll"
+
+# Basic
+title: "RhineSky"
+subtitle: Do your best for your love
+description: 为爱而生
+#welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+welcome_message: あなたは、指先の电光石火の跃动私一生不変の信仰に、唯私超电磁炮永世不磨！
+creator: <a href="https://macjab.com">@RhineSky</a>
+
+#mainCSS: "https://macjab.com/css/main.css"
+#mainJS: "https://macjab.com/js/main.js"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: red
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: Github, description: My Github Projects, url: 'https://github.com/macjab'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+plugins: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: macjab # vno-jekyll # vno-jeky11 # disqus评论子控件的用户ID(或用户shortname名称，谢谢)，谢谢，
+    # duoshuo:  # 多说评论子控件的用户ID(待验证的说，谢谢)，谢谢，
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
